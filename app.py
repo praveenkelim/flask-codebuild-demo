@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "AWS CodeBuild Demo - creating build using codepipelie"
+    return "AWS CodeBuild Demo - this is from code build"
     
 
 @app.route("/add/<int:a>/<int:b>")
