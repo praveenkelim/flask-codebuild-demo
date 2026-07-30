@@ -22,4 +22,4 @@ phases:
 
 artifacts:
   files:
-    - flask-app.zip
+    - imagedefinitions.json
