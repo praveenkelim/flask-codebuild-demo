@@ -15,7 +15,7 @@ phases:
       - echo Running Tests...
       - pytest
 
-   build:
+  build:
     commands:
       - echo Creating image definitions...
       - printf '[{"name":"Main","imageUri":"622623003948.dkr.ecr.us-east-1.amazonaws.com/varanasi:latest"}]' > imagedefinitions.json
